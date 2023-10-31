@@ -16,11 +16,11 @@ $sql = "SELECT a.*,b.name,c.name as leaveType FROM `userleavedetails` a left JOI
 $result = $conn->query($sql);
 ?>
 
-<body>
+<body class="bg-image">
 
 <div class="container">
   <h2>Approve The leaves</h2>
-  <p>Test</p>            
+  <!-- <p>Test</p>             -->
   <table class="table">
     <thead>
       <tr>

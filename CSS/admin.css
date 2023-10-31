@@ -4,8 +4,25 @@
     box-sizing: border-box;
 }
 
+.bg-image{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+
+
 .container{
     height: 70vh;
     width: 50vw;
-    background-color: yellow;
+    /* background-color: orange; */
+    padding-top: 50px;
+
+}
+
+.container h2{
+    font-weight: 700;
+    padding-left: 160px;
+    margin-bottom: 30px;
 }
