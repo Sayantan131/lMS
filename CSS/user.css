@@ -4,8 +4,91 @@
     box-sizing: border-box;
 }
 
-.container{
-    height: 70vh;
-    width: 50vw;
-    background-color: yellow;
+
+/* background image set using body  */
+.bg-image{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
 }
+
+/* **************************       credential section          **********************************/
+
+.container{
+    height: 45vh;
+    width: 100%;
+    /* background-color: orange; */
+    padding-left: 42rem;
+}
+
+.container h2{
+    /* margin-left: 70px; */
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.form-group{
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 120px;
+    
+}
+
+.form-group input{
+ 
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* margin-bottom: 5px; */
+    cursor: pointer;
+}
+
+.container button{
+    background-color: #04AA6D;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 35%;
+  margin-top: 10px;
+}
+   /* ****************** Leave Details **********************/
+
+.leave_details{
+    height: 45vh;
+    width: 50vw;
+    margin-top: 20px;
+    /* background-color: yellow; */
+    /* border: 5px solid black; */
+}
+
+.bg-image .leave_details{
+    width: 100vw;
+   padding-left: 490px;
+   padding-right: 300px;
+   margin-top: 30px;
+}
+
+/* *********************Leaave Balance *********************/
+
+.bg-image .leave_balance{
+    /* background-color: yellow; */
+    padding-left: 150px;
+    margin-bottom: 50px;
+}
+
+
+/* ********************* welcome Section ******************************/
+
+.welcome{
+    font-size: 40px;
+}
+
+
+
+

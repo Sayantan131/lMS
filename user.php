@@ -48,8 +48,10 @@ $LeaveTyperesultArray = $LeaveTyperesult->fetch_all();
 
 
 ?>
-  <body>
-     Welcome <?php
+  <body class="bg-image">
+  
+    <!-- <div class="welcome">
+    Welcome <?php
       echo $_SESSION["name"]; echo '<br>';
    
       if(isset($_SESSION['msg']))
@@ -58,6 +60,8 @@ $LeaveTyperesultArray = $LeaveTyperesult->fetch_all();
         $_SESSION['msg']='';
       }
       ?>
+    </div> -->
+    
     <div class="container">
   <h2>Please Fill the form to apply the leave</h2>
   <form method="post" action="LeaveSubmit.php" >
@@ -86,7 +90,7 @@ $LeaveTyperesultArray = $LeaveTyperesult->fetch_all();
   </form>
 </div>
 
-<div class="conta">
+<div class="leave_balance">
   <h2>Leave Balance</h2>
   Casual <button type="button" class="btn btn-primary"><?php echo $pendingCasualLeaves ?></button>
   Sick <button type="button" class="btn btn-success"><?php echo $pendingSickLeaves ?></button>
@@ -95,9 +99,9 @@ $LeaveTyperesultArray = $LeaveTyperesult->fetch_all();
 </div>
 
 
-<div class="container">
+<div class="leave_details">
   <h2>Leave Details</h2>
-  <p>Test</p>            
+  <!-- <p>Test</p>             -->
   <table class="table">
     <thead>
       <tr>
@@ -129,6 +133,7 @@ $LeaveTyperesultArray = $LeaveTyperesult->fetch_all();
     </tbody>
   </table>
 </div>
+
   </body>
   </html>
 
